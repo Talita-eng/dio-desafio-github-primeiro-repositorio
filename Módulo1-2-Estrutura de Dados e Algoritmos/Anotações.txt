@@ -1,4 +1,4 @@
-<h3>Organização de dados.</h3>
+Organização de dados.
 -Vetores
 -Matrizes
 -Registros (Como se fossem estruturas em C)

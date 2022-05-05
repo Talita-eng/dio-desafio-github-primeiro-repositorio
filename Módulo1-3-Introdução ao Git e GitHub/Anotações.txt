@@ -1,1 +1,32 @@
+Controle de Versões.
+Processo do primeiro desafio:
+	git clone https://github.com/Talita-eng/dio-desafio-github-primeiro-repositorio.git
+	cd dio-desafio-github-primeiro-repositorio/
+	git status
+	git add .
+	git commit -m "Inclusão do repositório Introdução ao Git e GitHub"
+	git push origin main
+
+Processo que uso no estágio:
+
+	1. Estando no develop local
+	git pull   				(atualiza o branch local e faz merge a partir do remoto)
+	git branch ticketNNN   	(cria o branch ticket101)
+	git checkout ticketNNN 	(troca de branch, se necessário trocar de branch. O git já chaveia automático)
+	git branch				(verifica em qual branch está)
+	git status 				(verifica o que tem para comitar)
+
+	2. trabalhar, testar, commitar e fazer o merge com o develop
+	git commit -a -m "#ticket NNN" -m "Descrição da alteraçao"	(faz commit, incluindo arquivos não controlados com titulo e descrição [-a = git add]
+	git checkout develop
+	git merge ticketNNN											(faz merge do ticket para o develop local)
+
+	3. Depois de testar o develop, enviar alterações ao develop remoto	
+	git branch				(verifica em qual branch está)
+	git push				(atualiza o remoto)
+
+	4. Deletando o branch da alteração
+	git branch -d ticket101  	(-d apaga o branch -D força mesm que não tenha adicionado ou feito commit de algum arquivo)
+
+
 Link para download: https://git-scm.com/downloads
