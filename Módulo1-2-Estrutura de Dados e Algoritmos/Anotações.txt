@@ -1,0 +1,11 @@
+# Organização de dados.
+-Vetores
+-Matrizes
+-Registros (Como se fossem estruturas em C)
+-Lista (Ligadas e Duplamente ligadas)
+-Pilha (LIFO e FIFO)
+-Fila (Segue conceito FIFO)
+-Árvore (Organização hierárquica - raiz e nós/folhas)
+-Tabela Hash (Dados espalhados com chaves de acessos)
+-Grafos (Relações de objetos dependem dos vértices/nós ligados) (Lembra modelagem no ASTAH)
+

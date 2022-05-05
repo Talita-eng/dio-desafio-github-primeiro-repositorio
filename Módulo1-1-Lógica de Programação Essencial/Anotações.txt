@@ -1,4 +1,4 @@
-#Aulas em Portugol.
+Aulas em Portugol.
 -Fluxograma
 -Variáveis e constantes
 -Condições
